@@ -1,8 +1,14 @@
- <footer class="bg-primary text-white">
+
+<footer class="bg-primary text-white">
           <div class="container">
             <div class="row">
               <div class="text-center py-3 d-block my-auto col">
-                Copyright © 2022 - CAMLAs
+                Copyright © <span id="foot"></span>span> CAMLAs
               </div>
             </div>
           </div>
+ </footer>
+
+ <script>
+  document.getElementById("foot").innerHTML = new Date().getFullYear();
+ </script>
