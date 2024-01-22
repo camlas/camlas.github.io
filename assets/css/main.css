@@ -1915,7 +1915,7 @@ pre code {
 
 @media only screen and (min-width: 900px){
   .navbar-brand{
-    margin-left: 5rem;
+    margin-left: 11rem;
   }
 }
 
@@ -4084,7 +4084,7 @@ input[type="submit"].btn-block {
 }
 .navbar {
   position: relative;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .navbar,
 .navbar .container,
@@ -9861,7 +9861,7 @@ infobox info p {
 }
 
 .navbar .navbar-nav .nav-link {
-  color: white;
+  color: black;
   font-size: 1.1em;
 }
 .navbar-light .navbar-nav .nav-link.active {
